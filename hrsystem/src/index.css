@@ -1,13 +1,4029 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* @media(min-width: 1440px){ */
+/* Form Style Start */ 
+
+.register-background{
+    height: 729px;
+    width: 450px;
+    left: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    filter: opacity(70%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  .logo{
+    width: 155px;
+    left: 310px;
+    top: 11%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    filter: opacity(65%);
+  }
+
+  .company-name1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    /* color:white; */
+    position: fixed;
+    top: 38%;
+    left: 11.5%;
+  }
+
+  .company-name1-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    /* color:white; */
+    position: fixed;
+    top: 49%;
+    left: 19.4%;
+  }
+
+  .twitter{
+    font-size: 48px;
+    position: fixed;
+    top: 63%;
+    left: 14.8%;
+    text-decoration: none;
+    color: black;
+  }
+
+  .instagram{
+    font-size: 48px;
+    position: fixed;
+    top: 63%;
+    left: 24%;
+    text-decoration: none;
+    color: black;
+  }
+
+  .linked-in{
+    font-size: 36px;
+    position: fixed;
+    top: 63.5%;
+    left: 33.3%;
+    text-decoration: none;
+    color: black;
+  }
+
+.twitter:hover {
+    opacity: 0.7;
+}
+
+.instagram:hover {
+    opacity: 0.7;
+}
+
+  .linked-in:hover {
+    opacity: 0.7;
+}
+
+.title{  /*  LOGIN  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* position: fixed; */
+    margin-top: 6%;
+    margin-left: 43%;
+}
+
+.email{  /* LOGIN */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 36px;
+    position: fixed;
+    left: 79.9%;
+    top: 25.4%;
+}
+
+.input-email{   /* LOGIN */
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57.2%;
+    top: 28.2%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.password{   /* LOGIN */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 36px;
+    position: fixed;
+    left: 80.1%;
+    top: 43%;
+}
+
+.input-password{  /* LOGIN */
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57.2%;
+    top: 46%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+::placeholder{
+    text-align: right; 
+    margin-right:15%;
+}
+
+.submit1{  /* LOGIN */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 40px;
+    background: linear-gradient(to right, #8299ff, #244baf);
+    /* background: #418073cb; */
+
+    box-shadow: rgba(92, 92, 92, 0.3) 0px 19px 38px,
+                  rgba(158, 157, 157, 0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    /* margin-left: 558px; */
+    position: absolute;
+    top: 64%;
+    left: 65.4%;
+}
+
+.title2{  /*  SIGNUP  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* position: fixed; */
+    margin-top: 3%;
+    margin-left: 43%;
+}
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 30px;
+    position: fixed;
+    left: 79.7%;
+    top: 17%;
+}
+
+.input-name{
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57%;
+    top: 20%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.phone-num{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 35px;
+    position: fixed;
+    left: 79.6%;
+    top: 32.4%;
+}
+
+.input-phone-num{
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57%;
+    top: 35.5%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.email-signup{  /* SIGNUP */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 34px;
+    position: fixed;
+    left: 79.7%;
+    top: 48.3%;
+}
+
+.input-email-signup{   /* SIGNUP */
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57%;
+    top: 51.3%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.password-signup{   /* SIGNUP */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    color: #244baf;
+    font-size: 34px;
+    position: fixed;
+    left: 79.8%;
+    top: 63.5%;
+}
+
+.input-password-signup{  /* SIGNUP */
+    height: 49px;
+    font-size: 22px;
+    outline: none;
+    width: 28%;
+    background-color: white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 50px;
+    position: fixed;
+    left: 57%;
+    top: 66.5%;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error-email{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 67.7%;
+    top: 37.5%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error-password{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 67%;
+    top: 55.5%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error-name /* SIGNUP */{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 68.5%;
+    top: 28%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error-phoneNum /* SIGNUP */{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 67.6%;
+    top: 44%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.errors-email /* SIGNUP */{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 67.6%;
+    top: 59.3%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.errors-password /* SIGNUP */{
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 66.6%;
+    top: 75%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.errors-email-registered{ /* LOGIN & SIGNUP */
+    color: red;
+    font-size: 16px;
+    position: fixed;
+    left: 65.7%;
+    top: 59.3%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit2{  /* SIGNUP */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 40px;
+    background: linear-gradient(to right, #8299ff, #244baf);
+    /* background: #418073cb; */
+    box-shadow: rgba(92, 92, 92, 0.3) 0px 19px 38px,
+                  rgba(158, 157, 157, 0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    /* margin-left: 558px; */
+    position: absolute;
+    top: 81.9%;
+    left: 67%;
+}
+
+.message {  /*  LOGIN  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 0 0;
+    color: #969595;
+    font-size: 18px;
+    text-align: center;
+    /* margin-left: 500px; */
+    position: absolute;
+    top: 71%;
+    left: 64.6%;
+}
+
+.message a {  /*  LOGIN  */
+    color: #000000cb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.message2 {  /*  SIGNUP  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 0 0;
+    color: #969595;
+    font-size: 18px;
+    text-align: center;
+    /* margin-left: 500px; */
+    position: absolute;
+    top: 84.4%;
+    left: 65.1%;
+}
+
+.message2 a {  /*  SIGNUP  */
+    color: #000000cb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Style End */
+/* Homepage Style Start */
+
+.header-background1{
+    position: fixed;
+    width: 90%;
+    height: 12%;
+    right:12%;
+    top:0%;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 30px;
+}
+
+.header-background2{
+    position: fixed;
+    width: 17.8%;
+    height: 100.2%;
+    left:82.5%;
+    top:0%;
+    text-align: center;
+    background:  white;
+    color: black;
+    font-size: 30px;
+}
+
+.header-logo{
+    height: 9%;
+    width: 3%;
+    left: 89.7%;
+    top: 0.5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    filter: opacity(70%);
+}
+
+.header-name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    margin-top: 1.5%;
+    left: 33.5%;
+    /* background: linear-gradient(to right, #8299ff 0%, #244baf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; */
+    /* color: #418073cb; */
+    font-size: 32px;
+}
+
+.header-name-logo{
+    height: 9%;
+    width: 3%;
+    left: 54%;
+    margin-top: 0.5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    filter: opacity(70%);
+}
+
+#logout{
+    position: fixed;
+    margin-top: 1.9%;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+#admin-page{
+    position: fixed;
+    margin-top: 2%;
+    left: 7%;
+    color: black;
+    font-size: 29px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.border-vertical{
+    border-left:2px solid rgba(230, 230, 230, 0.808);
+    height: 1120px;
+    position: fixed;
+    top: 0%;
+    left: 82.4%;
+    /* background: red; */
+}
+
+.border-horizantal{
+    border: 1px solid rgba(230, 230, 230, 0.808);
+    width: 94%;
+    position: fixed;
+    top: 12%;
+    right: 17.5%;
+    text-align: center;
+    /* background: red; */
+    font-size: 30px;
+}
+
+.general-info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top:12.9%;
+    left:91.4%; 
+    color: black;
+}
+
+#home-page{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 16px;
+    position: fixed;
+    top: 17%;
+    left: 89%; 
+    color: black;
+}
+
+#orders{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 21%;
+    left: 92.4%; 
+    color: black;
+}
+
+.employee{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 28%;
+    left: 94.6%; 
+    color: black;
+}
+
+#view-emp{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 32%;
+    left: 89.5%; 
+    color: black;
+}
+
+.vacations{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 39%;
+    left: 92.5%; 
+    color: black;
+}
+
+#vacation-balance{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 43%;
+    left: 90%; 
+    color: black;
+}
+
+.Attendance{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 49.9%;
+    left: 90.3%; 
+    color: black;
+}
+
+#Attendance1{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 54%;
+    left: 88.7%; 
+    color: black;
+}
+
+#working-schedule{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 58%;
+    left: 89.7%; 
+    color: black;
+}
+
+.salary{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 64.8%;
+    left: 92.4%; 
+    color: black;
+}
+
+#table-salary{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 69%;
+    left: 88.3%; 
+    color: black;
+}
+
+#Vacation-summary{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 73%;
+    left: 84.2%; 
+    color: black; 
+}
+
+#salary-transfer{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 77%;
+    left: 90%; 
+    color: black; 
+}
+
+.other{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 83%;
+    left: 95.5%; 
+    color: black;
+}
+
+#reports{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 87%;
+    left: 93.6%; 
+    color: black; 
+}
+
+#settings{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 91%;
+    left: 92.7%; 
+    color: black; 
+}
+
+.homepage-box1{
+    background-color: #fff;
+    min-width: 100px;
+    min-height: 290px;
+    /* padding: 0px; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: rgba(123, 120, 161, 0.13) solid 1px;
+    box-shadow: 5px 10px 18px #f1efef;
+    box-shadow: rgba(190, 190, 190, 0.226) 0px 19px 38px,
+    rgba(179, 175, 175, 0.26) 0px 15px 12px; 
+    display: block;
+    margin-top: 7%;
+    margin-right: 19.3%;
+    margin-left: 2%;
+}
+
+.incoming{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    margin-top:3%;
+    margin-left: 92%; 
+    color: black;
+}
+
+.homepage-box2{
+    background-color: #fff;
+    min-width: 100px;
+    min-height: 290px;
+    /* padding: 0px; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: rgba(123, 120, 161, 0.13) solid 1px;
+    box-shadow: 5px 10px 18px #f1efef;
+    box-shadow: rgba(190, 190, 190, 0.226) 0px 19px 38px,
+    rgba(179, 175, 175, 0.26) 0px 15px 12px; 
+    display: block;
+    margin-top: 1%;
+    margin-right: 19.3%;
+    margin-left: 2%;
+}
+
+.reminder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    margin-top:3%;
+    margin-left: 91.3%; 
+    color: black;
+}
+
+/* Homepage Style End */
+/* Orders Style Start */
+
+.orders-name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    font-size: 22px;
+    margin-top:2.2%;
+    margin-left: 77.2%; 
+    color: black;
+}
+
+.order-table{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+    /* font-size: 17px; */
+    position: fixed;
+    margin-top: 14%;
+    margin-left: 2%;
+}
+
+table, td, th{
+    /* border: 1px solid black; */
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+    /* text-align: left; */
+}
+
+table{
+    border-collapse:collapse;
+    width: 350%;
+}
+
+th, td{
+    padding: 15px;
+}
+
+.dropdown{
+    position: fixed;
+    margin-top: 8%;
+    left: 3%;
+}
+
+.new-order{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #244baf;
+    border:none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.dropdown-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(238, 238, 238)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .new-order {
+  background-color: rgb(118, 162, 219);
+}
+
+/* Orders Style End */
+/* ModalDemmision Page Start */ 
+
+    .overlay{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .modal-container{
+        max-width: 600px;
+        width: 35%;
+        height:90%;
+        position: fixed;
+        top:45%;
+        left:17.7%;
+        transform:translate(-50%, -50%);
+        display: flex;
+        background-color: white;
+        box-shadow:0px 18px 18px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 8px;
+    }
+    
+    .modal-right{
+        width:100%;
+    }
+    
+    .close-btn{
+        font-size: 26px;
+        position: fixed;
+        top:-1.1%;
+        right:4%;
+        cursor: pointer;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top:3rem;
+        padding:1rem 2rem;
+    }
+
+    .demission{
+        margin-top:-9.8%;
+    }
+
+    .line-horizantal{
+        border: 1px solid rgba(230, 230, 230, 0.808);
+        width: 99.5%;
+        position: fixed;
+        top: 9%;
+        right: 0%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .demi-background{
+        background-color: rgb(237, 237, 237);
+        width: 100%;
+        height:110%;
+        position: fixed;
+        top:9%;
+        left:0%;
+    }
+
+    .demi-box1{
+        height: 40%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 11.6%;
+    }
+
+    .demi-name{
+        font-size: 18px;
+        /* margin-left: 22%; */
+    }
+
+    .day-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        margin-left: 66%;
+    }
+
+    .demi-day-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 25.4%;
+    }
+
+    .demi-day-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .reason-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        margin-left: 71.2%;
+        margin-top:17%;
+    }
+
+    #select-demi{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 41.4%;
+        text-align: right;
+    }
+
+    #select-demi:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .reason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .demi-box2{
+        height: 38%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 53.8%;
+    }
+
+    .reason-name{
+        font-size: 17px;
+        margin-left: 79%;
+    }
+
+    .rreason-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 80.8%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        margin-left: 0.6%;
+        margin-top: -8%;
+        text-align: right;
+    }
+
+    .rreason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .footer-popup-modal{
+        background-color: white;
+        width: 100%;
+        height:10%;
+        position: fixed;
+        top:101%;
+        left:0%;
+    }
+
+    .send{
+        margin-top: 2.5%;
+        margin-left: 78%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        font-size: 20px;
+        border-radius: 5px;
+        color: black;
+        padding: 5px 18px;
+        background: white;
+        outline: none;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+    }
+
+    .send:hover{
+        background-color: #ececec;
+    }
+
+    .cancel{
+        margin-top: -6.8%;
+        margin-left: 63%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        font-size: 20px;
+        border-radius: 5px;
+        color: black;
+        padding: 5px 18px;
+        background: white;
+        outline: none;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+    }
+
+    .cancel:hover{
+        background-color: #ececec;
+    }
+
+/* ModalDemmision Page End */ 
+/* ModalLetter Page Start */
+
+    .letter{
+        margin-top:-9.8%;
+    }
+
+    .letter-name{
+        font-size: 18px;
+        /* margin-left: 22%; */
+    }
+
+    .type-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        margin-left: 81%;
+    }
+
+    #select{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 82%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 25.4%;
+        text-align: right;
+    }
+
+    #select:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .guided{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: -11.2%;
+        margin-top: 20%; 
+    }
+
+    .guided-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 80.8%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 40.4%;
+        text-align: right;
+    }
+
+    .guided-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .reason-name{
+        font-size: 17px;
+        margin-left: 80%;
+    }
+
+    .rreason-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 80.8%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 68.2%;
+        text-align: right;
+    }
+
+    .rreason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+/* ModalLetter Page End */
+/* ModalEmp Page Start */
+
+    .emp-box1{
+        height: 50%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 10.5%;
+    }
+
+    .emp-name{
+        font-size: 18px;
+    }
+
+    .emp-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 0%;
+    }
+
+    #select-emp{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 82%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 23%;
+        text-align: right;
+    }
+
+    #select-emp:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .month-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: 37.2%;
+        margin-top: 18%;
+    }
+
+    #select-month{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 82%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 36.4%;
+        text-align: right;
+    }
+
+    #select-month:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .num-emp-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: 26%;
+        margin-top: 35.7%;
+    }
+
+    #select-num-emp{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 82%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 50.2%;
+        text-align: right;
+    }
+
+    #select-num-emp:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .emp-box2{
+        height: 35%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 62.7%;
+    }
+
+    .emp-reason-name{
+        font-size: 18px;
+        margin-left: 82%;
+    }
+
+     .emp-reason-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 81.4%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 70.5%;
+        text-align: right;
+    }
+
+    .emp-reason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+/* ModalEmp Page End */
+/* ModalCorrect Page Start */
+    
+    .correct{
+        margin-top:-9.8%;
+    }
+
+    .correct-name{
+        font-size: 18px;
+    }
+    
+    .corr-date-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: 35%;
+        margin-top: -1%; 
+    }
+
+    .corr-day-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 81.4%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 9%;
+        top: 24.5%;
+        text-align: right;
+    }
+
+    .corr-day-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+/* ModalCorrect Page End */
+/* ModalSalary Page Start */
+
+.salary-box1{
+    height: 62%;
+    font-size: 19px;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 11%;
+}
+
+    .line-horizantal2{
+        border: 1px solid rgba(230, 230, 230, 0.808);
+        width: 80%;
+        position: fixed;
+        top: 20%;
+        right: 10%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .item-label{
+        font-size: 17px;
+        position: absolute;
+        margin-left: 31.2%;
+        margin-top: 1%;
+    }
+
+    .item-input{
+        height: 32px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: 17%;
+        margin-top: 6.5%;
+        text-align: right;
+    }
+
+    .item-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .dating-label{
+        font-size: 17px;
+        position: absolute;
+        margin-left: 5.3%;
+        margin-top: 1%;
+    }
+
+    .dating-input{
+        height: 34px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -13.8%;
+        margin-top: 6.5%;
+    }
+
+    .dating-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .salary-label{
+        font-size: 17px;
+        position: absolute;
+        margin-left: -24.4%;
+        margin-top: 1%;
+    }
+
+    .salary-input{
+        height: 32.3px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -45%;
+        margin-top: 6.5%;
+        text-align: right;
+    }
+
+    .salary-background{
+        background-color: rgb(237, 237, 237);
+        width: 7%;
+        height:5.1%;
+        position: fixed;
+        top:27.3%;
+        left:7.8%;
+        border-radius: 5px 1px 1px 5px;
+    }
+
+    .salary-background p{
+        font-size: 14px;
+        margin-top:22%;
+    }
+
+    .salary-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .description{
+        font-size: 18px;
+        position: absolute;
+        margin-left: 35.5%;
+        margin-top: 18%;
+    }
+
+    .descrip-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 88%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -45%;
+        margin-top: 23.7%;
+        text-align: right;
+    }
+
+    .descrip-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .save{
+        margin-top:63.5%;
+        margin-left: 16%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        font-size: 16px;
+        border-radius: 5px;
+        color: black;
+        padding: 3px 15px;
+        background: white;
+        outline: none;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+    }
+
+    .save:hover{
+        background-color: #ececec;
+    }
+
+    .salary-cancel{
+        margin-top:-5.7%;
+        margin-left: 3.4%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        font-size: 16px;
+        border-radius: 5px;
+        color: black;
+        padding: 3px 15px;
+        background: white;
+        outline: none;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+    }
+
+    .salary-cancel:hover{
+        background-color: #ececec;
+    }
+
+    .salary-box2{
+        height: 20%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 75%;
+    }
+
+    .salary-reason{
+        font-size: 17px;
+        position: absolute;
+        margin-left: 87%;
+        margin-top: 2%;
+    }
+
+    .salary-reason-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 86%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -44%;
+        margin-top: 8%;
+        text-align: right;
+    }
+
+    .salary-reason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+/* ModalSalary Page End */
+/* ModalPermission Page Start */ 
+
+.permission{
+    margin-top:-9.8%;
+}
+
+.per-box1{
+    height: 23%;
+    font-size: 19px;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 11.6%;
+ }
+
+    .permission-name{
+        font-size: 18px;
+        margin-left: 3%;
+    }
+
+    .permission-type-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        margin-left: 84%; 
+    }
+ 
+    #select-per{
+        height: 38px;
+        font-size: 18px;
+        outline: none;
+        width: 41%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 51%;
+        top: 25.4%;
+        text-align: right;
+    }
+
+    #select-per:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .per-dating-label{
+        font-size: 19px;
+        position: absolute;
+        margin-left: -56%;
+        margin-top: 0.2%;
+    }
+
+    .per-dating-input{
+        height: 35.6px;
+        font-size: 19px;
+        outline: none;
+        width: 43%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -90.5%;
+        margin-top: 6.6%;
+    }
+
+    .per-dating-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+     .per-box2{
+        height: 44%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 39%;
+    }
+
+    .per-reason{
+        font-size: 17px;
+        position: absolute;
+        margin-left: 87%;
+        margin-top: 4%;
+    }
+
+    #select-per2{
+        height: 42px;
+        font-size: 16px;
+        outline: none;
+        width: 83%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 47%;
+        text-align: right;
+    }
+
+    #select-per2:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .per-reason-input{
+        height: 38px;
+        font-size: 16px;
+        outline: none;
+        width: 87.4%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -44.8%;
+        margin-top: 22%;
+        text-align: right;
+    }
+
+    .per-reason-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    /* ModalPermission Page End */ 
+    /* ModalExtra Page Start */ 
+
+    .extra{
+        margin-top:-9.8%;
+    }
+
+    .extra-box1{
+        height: 42%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 11.6%;
+     }
+
+        .extra-name{
+            font-size: 18px;
+            margin-left: 2%;
+        }
+
+        .extra-type-label{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            margin-left: 83%; 
+        }
+
+        #select-ext{
+            height: 42px;
+            font-size: 19px;
+            outline: none;
+            width: 83%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: fixed;
+            left: 8%;
+            top: 25.4%;
+            text-align: right;
+        }
+
+        #select-ext:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .ext-dating-label{
+            font-size: 19px;
+            position: absolute;
+            margin-left: -8.4%;
+            margin-top: 20.5%;
+        }
+
+        .ext-dating-input{
+            height: 41px;
+            font-size: 19px;
+            outline: none;
+            width: 43%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: absolute;
+            margin-left: -44%;
+            margin-top: 27.6%;
+        }
+
+        .ext-dating-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .extra-label{
+            font-size: 19px;
+            position: absolute;
+            margin-left: -61.5%;
+            margin-top: 21%;
+        }
+
+        .extra-input{
+            height: 39px;
+            font-size: 19px;
+            outline: none;
+            width: 28%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: absolute;
+            margin-left: -75%;
+            margin-top: 27.6%;
+            text-align: right;
+        }
+
+        .extra-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .blus{
+            height: 16%;
+            margin-top:23%;
+            margin-left: 10%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            font-size: 30px;
+            border-radius: 5px;
+            color: black;
+            padding:5px 10px;
+            background: white;
+            outline: none;
+            border: 1px solid #bbbbbb;
+            cursor: pointer;
+        }
+
+        .blus:hover{
+            background-color: #ececec;
+        }
+
+        .minus{
+            height: 16.4%;
+            margin-top:-8.9%;
+            margin-left: 1.5%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            font-size: 35px;
+            border-radius: 5px;
+            color: black;
+            padding:0px 12px;
+            background: white;
+            outline: none;
+            border: 1px solid #bbbbbb;
+            cursor: pointer;
+        }
+
+        .minus:hover{
+            background-color: #ececec;
+        }
+    
+        .extra-box2{
+            height: 39%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 56%;
+        }
+
+        .ext-reason{
+            font-size: 17px;
+            position: absolute;
+            margin-left: 87%;
+            margin-top: 4%;
+        }
+    
+        .ext-reason-input{
+            height: 41px;
+            font-size: 19px;
+            outline: none;
+            width: 88%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: absolute;
+            margin-left: -44.8%;
+            margin-top: 11%;
+            text-align: right;
+        }
+
+        .ext-reason-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        /* ModalExtra Page End */ 
+        /* ModalCustody Page Start */
+
+        .custody{
+            margin-top:-9.8%;
+        }
+ 
+        .cos-box1{
+            height: 37%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 11.6%;  
+        }
+
+        .custody-name{
+            font-size: 19px;
+            position:fixed;
+            margin-left: 25%;
+            margin-top:6%;
+        }
+
+        #select-custody{
+            height: 41px;
+            font-size: 16px;
+            outline: none;
+            width: 82%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: fixed;
+            left: 9.1%;
+            top: 21.4%;
+            text-align: right;
+        }
+        
+        #select-custody:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .cus-type-label{
+            font-size: 19px;
+            position: absolute;
+            margin-left: 30.9%;
+            margin-top: 27%;
+        }
+ 
+        #select-cus-type{
+            height: 41px;
+            font-size: 19px;
+            outline: none;
+            width: 82%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: fixed;
+            left: 9%;
+            top: 37.3%;
+            text-align: right;
+        }
+    
+        #select-cus-type:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .cos-box2{
+            height: 42%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 51%;  
+        }
+
+        .custody-reason{
+            font-size: 17px;
+            margin-left: 81.5%; 
+        }
+
+        .cus-reason-input{
+            font-size: 19px;
+            height: 38px;
+            font-size: 19px;
+            outline: none;
+            width: 82%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: fixed;
+            left: 8.3%;
+            top: 59%;
+            text-align: right;
+        }
+    
+        .cus-reason-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .upload-custody{
+            font-size: 17px;
+            margin-left: 10px;
+            margin-top: 20%;
+            color: #676262;
+        }
+
+        .upload-file{
+            color: black;
+            margin-left: 16%;
+            margin-top: 5px;
+        }
+
+    /* ModalCustody Page End */
+    /* ModalHoliday Page Start */
+
+    .holiday{
+        margin-top:-9.8%;
+    }
+
+        .holiday-box1{
+            height: 37%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 11%;  
+          }
+ 
+         .holi-details{
+             font-size: 18px;
+         }
+         
+         .holi-type-label{
+             font-size: 19px;
+             margin-left: 81%;
+         }
+ 
+         #select-holi{
+             height: 43px;
+             font-size: 19px;
+             outline: none;
+             width: 83%;
+             background-color: white;
+             border:1px solid rgb(200, 199, 199);
+             border-radius: 5px;
+             position: fixed;
+             left: 8.5%;
+             top: 24.4%;
+             text-align: right;
+         }
+ 
+         #select-holi:hover{
+             border-color:rgb(25, 58, 192);
+         }
+         
+         .holi-dating-label{
+             font-size: 19px;
+             position:fixed;
+             margin-left: -4.1%;
+             margin-top: 17%;
+         }
+         
+         .start-date-input{
+             height: 41px;
+             font-size: 19px;
+             outline: none;
+             width: 40%;
+             background-color: white;
+             border:1px solid rgb(200, 199, 199);
+             border-radius: 5px;
+             position: absolute;
+             margin-left: -40%;
+             margin-top: 24%;
+             text-align: right;
+         }
+
+         .start-date-input:hover{
+             border-color:rgb(25, 58, 192);
+         }
+         
+         .holi-dating-label2{
+             font-size: 19px;
+             position: fixed;
+             margin-left: -49%;
+             margin-top: 17.2%;
+         }
+
+         .end-date-input{
+             height: 41px;
+             font-size: 19px;
+             outline: none;
+             width: 40%;
+             background-color: white;
+             border:1px solid rgb(200, 199, 199);
+             border-radius: 5px;
+             position: absolute;
+             margin-left: -88%;
+             margin-top: 24.1%;
+             text-align: right;
+         }
+
+         .end-date-input:hover{
+             border-color:rgb(25, 58, 192);
+         }
+ 
+         .holiday-box2{
+             height: 9.5%;
+             outline: none;
+             width: 94%;
+             background-color: white;
+             border:1px solid rgb(190, 187, 187);
+             border-radius: 15px;
+             position: fixed;
+             left: 2.7%;
+             top: 49.4%;  
+           }
+           
+           .holi-ticket{
+            font-size: 22px;
+            margin-left: 68%;
+            margin-top: 3.6%;
+           }
+
+           .switch{
+            position: relative;
+            display:inline-block;
+            width: 60px;
+            height: 34px;
+            position:absolute;
+            margin-left: -45%;
+            margin-top: 3%;
+           }
+
+           .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+           }
+
+           .slider{
+            position:absolute;
+            cursor: pointer;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color: #ccc;
+            -webkit-transition:.4s;
+            transition: .4s;
+           }
+
+           .slider:before{
+            position:absolute;
+            content:"";
+            height: 26px;
+            width:26px;
+            left:4px;
+            bottom:4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+           }
+
+           input:checked + .slider{
+            background-color: #2164f3;
+           }
+
+           input:focus + .slider{
+            box-shadow: 0 0 1px #2196F3;
+           }
+
+           input:checked + .slider:before{
+            -webkit-transform: translateX(26px);
+            -ms-transform:translateX(26px);
+            transform: translateX(26px);
+           }
+
+           .slider.round{
+            border-radius:34px;
+           }
+
+           .slider.round:before{
+            border-radius:50%;
+           }
+
+           .holiday-box3{
+            height: 9.5%;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 60.4%;  
+          }
+
+          .holi-exit{
+            font-size: 22px;
+            margin-left: 55%;
+            margin-top: 3.6%;
+          }
+
+          .holiday-box4{
+            height: 28%;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 71.4%;  
+          }
+
+          .holi-reason{
+            font-size: 19px;
+            position: fixed;
+            margin-left: 80.5%;
+            margin-top: 2.6%;
+          }
+
+          .holi-reason-input{
+            height: 38px;
+            font-size: 19px;
+            outline: none;
+            width: 87%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: absolute;
+            margin-left: -44%;
+            margin-top: 9%;
+            text-align: right;
+          }
+
+          .holi-reason-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+/* ModalHoliday Page End */
+/* ModalJob Page Start */
+.job{
+    margin-top:-9.8%;
+}
+
+.job-box1{
+    height: 45%;
+    font-size: 19px;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 10%;  
+}
+
+.job-details{
+    font-size: 18px;
+}
+
+.trip-label{
+    font-size: 19px;
+    position:absolute;
+    margin-left: 31%;
+    /* margin-top: 8; */
+}
+
+#select-trip{
+    height: 38px;
+    font-size: 19px;
+    outline: none;
+    width: 83%;
+    background-color: white;
+    border:1px solid rgb(200, 199, 199);
+    border-radius: 5px;
+    position: fixed;
+    left: 8.5%;
+    top: 23.3%;
+    text-align: right;
+}
+
+#select-trip:hover{
+    border-color:rgb(25, 58, 192);
+}
+
+.job-dating-label{
+    font-size: 19px;
+    position: fixed;
+    margin-left: 37%;
+    margin-top: 15%;
+}
+
+.job-start-date-input{
+    height: 37px;
+    font-size: 19px;
+    outline: none;
+    width: 40%;
+    background-color: white;
+    border:1px solid rgb(200, 199, 199);
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 3.6%;
+    margin-top: 21.1%;
+    text-align: right;
+}
+
+.job-start-date-input:hover{
+    border-color:rgb(25, 58, 192);
+}
+
+.job-dating-label2{
+    font-size: 19px;
+    position: fixed;
+    margin-left: -8%;
+    margin-top: 15%;
+}
+
+.job-end-date-input{
+    height: 37px;
+    font-size: 19px;
+    outline: none;
+    width: 40%;
+    background-color: white;
+    border:1px solid rgb(200, 199, 199);
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -43.9%;
+    margin-top:21.1%;
+    text-align: right;
+}
+
+.job-end-date-input:hover{
+    border-color:rgb(25, 58, 192);
+}
+
+.service-label{
+    font-size: 19px;
+    position: fixed;
+    margin-left: 21%;
+    margin-top: 30%;
+}
+
+#select-service{
+    height: 38px;
+    font-size: 19px;
+    outline: none;
+    width: 83%;
+    background-color: white;
+    border:1px solid rgb(200, 199, 199);
+    border-radius: 5px;
+    position: fixed;
+    left: 8.6%;
+    top: 47%;
+    text-align: right;
+}
+
+#select-service:hover{
+    border-color:rgb(25, 58, 192);
+}
+
+.job-box2{
+    height: 9.5%;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 56%; 
+}
+
+.job-box3{
+    height: 9.5%;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 66.5%; 
+}
+
+.job-box4{
+    height: 23%;
+    outline: none;
+    width: 94%;
+    background-color: white;
+    border:1px solid rgb(190, 187, 187);
+    border-radius: 15px;
+    position: fixed;
+    left: 2.7%;
+    top: 77%; 
+}
+
+/* ModalJob Page End */
+/* VacationBalance Style Start */
+
+.vaca-box1{
+    height: 66%;
+    outline: none;
+    width: 38%;
+    background-color: #8fbc8f;
+    border:none;
+    border-radius: 15px;
+    position: fixed;
+    left: 6.2%;
+    top: 20%;  
+}
+
+.vaca-year{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    position: fixed;
+    left: 22%;
+    top: 20%;  
+}
+
+.vaca-list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 19px;
+}
+
+#vaca-list1{
+    margin-top: 15%;
+}
+
+#vaca-list2{
+    margin-top: 7%;
+}
+
+.vaca-box2{
+    height: 40%;
+    outline: none;
+    width: 30%;
+    background-color: #7c95cc;
+    border:none;
+    border-radius: 15px;
+    position: fixed;
+    left: 46%;
+    top: 20%;  
+}
+
+.emp-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35%;
+    margin-top: 4.5%;
+    font-size:18px;
+}
+
+.emp-data{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    margin-right: 7.5%;
+    font-size:21px;
+}
+
+#emp-num{
+    margin-top:9%;
+}
+
+#emp-name{
+    margin-top: 15%;
+}
+
+.vaca-box3{
+    height: 24%;
+    outline: none;
+    width: 30%;
+    background-color: rgb(197, 197, 197);
+    border:none;
+    border-radius: 15px;
+    position: fixed;
+    left: 46%;
+    top: 62%; 
+}
+
+.other-vaca{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 39.6%;
+    margin-top: 4.5%;
+    font-size:19px;
+}
+
+#show-detail{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 11.7%;
+    position: fixed;
+    margin-top: 0%;
+    font-size:22px;
+    /* text-decoration: none; */
+    color:black;
+    text-align: right;
+}
+
+/* VacationBalance Style End */
+
+/* Settings Style Start */
+
+.back-from-settings{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 9px;
+    background: linear-gradient(to right, #d182ff, #5c3d66);
+    background: white;
+    /* box-shadow: rgba(228, 228, 228, 0.836) 0px 19px 38px,
+                  rgba(199, 199, 199, 0.22) 0px 15px 12px; */
+    margin: auto;
+    outline: none;
+    /* border: none; */
+    cursor: pointer;
+    transition: all 0.1s;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+}
+
+/* Settings Style End */
+/*  HOVER  */
+
+#home-page:hover{
+    color: #244baf;
+}
+
+#orders:hover{
+    color: #244baf;
+}
+
+#view-emp:hover{
+    color: #244baf;
+}
+
+#vacation-balance:hover{
+    color: #244baf;
+}
+
+#Attendance1:hover{
+    color: #244baf;
+}
+
+#working-schedule:hover{
+    color: #244baf;
+}
+
+#table-salary:hover{
+    color: #244baf;
+}
+
+#Vacation-summary:hover{
+    color: #244baf;
+}
+
+#salary-transfer:hover{
+    color: #244baf;
+}
+
+#reports:hover{
+    color: #244baf;
+}
+
+#settings:hover{
+    color: #244baf;
+}
+
+/*  HOVER  */
+/* } */
+
+/* RESPONSIVE */
+
+@media(max-width: 1440px) and (min-width: 1280px){
+ 
+    .register-background{
+        height: 705px;
+        width: 660px;
+    }
+
+    .logo{ 
+        left: 18%;
+        margin-top: 3%;
+        width: 145px;
+    }
+
+    .company-name1{
+        left:9.2%;
+        font-size: 38px;
+        top: 42%;
+    }
+    
+   .company-name1-1{   
+      left: 15.5%;
+      font-size: 44px;
+      top: 50.7%;
+    }
+    
+    .twitter{
+        font-size: 45px;
+        top: 62.4%;
+        left: 11.9%;
+      }
+    
+      .instagram{
+        font-size: 48px;
+        top: 62.2%;
+        left: 21.4%;
+      }
+        
+     .linked-in{
+        font-size: 36.4px;
+        top: 62.9%;
+        left: 31%;
+      }
+        
+    .title{ /* LOGIN */
+        font-size: 45px;
+        margin-left: 43.9%;
+        margin-top: 7%;
+    }
+    
+    .email{  /* LOGIN */ 
+        font-size: 30px;
+        left: 81.4%;
+        top: 29.8%;
+    }
+    
+    .input-email{    /* LOGIN */
+        height: 55px;
+        left: 58%;
+        top: 32%;
+    }
+
+    .password{   /* LOGIN */
+        font-size: 30px;
+        left: 81.4%;
+        top: 45%;
+    }
+    
+    .input-password{ /* LOGIN */
+        height: 55px;
+        left: 58%;
+        top: 47.5%;
+    }
+
+    .error-email{
+        font-size: 15px;
+        left: 69.5%;
+        top: 40%;
+    }
+
+    .errors-email-registered{ /* LOGIN & SIGNUP */
+        left: 70%;
+        top: 59.3%;
+    }
+    
+    .error-password{
+        font-size: 15px;
+        left: 68.5%;
+        top: 56%;
+    }
+
+    .submit1{ /* LOGIN */
+        left: 66.4%;
+    }
+
+    .message {  /* LOGIN */
+        left: 65.2%;
+        font-size: 21px;
+    }
+
+    .title2{  /*SIGNUP*/
+        margin-left: 50%;
+        margin-top: 3.5%;
+        font-size: 45px;
+    }
+
+    .name{
+        font-size: 25px;
+        left: 83.5%;
+        top: 20%;
+    }
+    
+    .input-name{
+        left: 60.2%;
+        top: 22%;
+    }
+    
+    .phone-num{
+        font-size: 30px;
+        left: 83.5%;
+        top: 34%;
+    }
+    
+    .input-phone-num{
+        left: 60.2%;
+        top: 36%;
+    }
+    
+    .email-signup{  /*SIGNUP*/
+        font-size: 27.5px;
+        left: 83.5%;
+        top: 48.5%;
+    }
+    
+    .input-email-signup{   /*SIGNUP*/
+        left: 60.2%;
+        top: 50.5%;
+    }
+    
+    .password-signup{   /*SIGNUP*/
+        font-size: 31px;
+        left: 83.5%;
+        top: 62.5%;
+    }
+    
+    .input-password-signup{  /*SIGNUP*/
+        left: 60.2%;
+        top: 65%;
+
+    }
+
+    .error-name /* SIGNUP */{
+        font-size: 15px;
+        left:72.8%;
+        top: 30%;
+    }
+    
+    .error-phoneNum /* SIGNUP */{
+        font-size: 15px;
+        left: 71.9%;
+        top: 44.2%;
+    }
+
+    .errors-email /* SIGNUP */{
+        font-size: 15px;
+        left: 72%;
+        top: 58.8%;
+    }
+    
+    .errors-password /* SIGNUP */{
+        font-size: 15px;
+        left: 70.8%;
+        top: 73.5%;
+    }
+    
+    .submit2{ /*SIGNUP*/
+        left: 70.7%;
+        top: 81%;
+    }
+
+    .message2 { /*SIGNUP*/
+        left: 69.4%;
+        top: 83.5%;
+        font-size: 19px;
+    }
+
+    /* Register Page End */ 
+    /* Homepage Page Start */ 
+
+    .header-background1{
+        height: 9.4%;
+        right:12%;
+        top:0%;
+    }
+
+    .header-name{
+        margin-top: 1.2%;
+        left: 32.8%;
+    }
+    
+    .header-logo{
+        left: 89.8%;
+        top: 1%;
+        height: 9%;
+        width: 3.5%;
+    }
+    
+    .header-name-logo{
+        left: 52.9%;
+        margin-top: 0%;  
+    }
+
+    #logout{
+        margin-top: 1.3%;
+    }
+
+    .header-background2{
+        width: 16.9%;
+        height: 100.2%;
+        left:83%;
+        top:0%;
+    }
+
+    .border-vertical{
+        left: 83%;
+    }search-view
+    
+    .border-horizantal{
+        top: 9.5%;
+        right: 17%;
+    }
+    
+    .general-info{
+        font-size: 17px;
+        top:13.5%;
+        left:92.5%; 
+    }
+    
+    #home-page{
+        font-size: 18px;
+        top: 17.3%;
+        left: 89.6%; 
+    }
+    
+    #orders{
+        font-size: 18px;
+        top: 21%;
+        left: 93.58%; 
+    }
+    
+    .employee{
+        font-size: 17px;
+        top: 27%;
+        left: 95.6%; 
+    }
+    
+    #view-emp{
+        font-size: 18px;
+        top: 31%;
+        left: 89.9%; 
+    }
+    
+    .vacations{
+        font-size: 17px;
+        top: 37%;
+        left: 93.2%; 
+    }
+    
+    #vacation-balance{
+        font-size: 18px;
+        top: 41.2%;
+        left: 90.4%; 
+    }
+    
+    .Attendance{
+        font-size: 17px;
+        top: 47.5%;
+        left: 90.9%; 
+    }
+    
+    #Attendance1{
+        font-size: 18px;
+        top: 52.1%;
+        left: 88.8%; 
+    }
+    
+    #working-schedule{
+        font-size: 18px;
+        top: 56.4%;
+        left: 90.6%; 
+    }
+    
+    .salary{
+        font-size: 17px;
+        top: 62.2%;
+        left: 93.4%; 
+    }
+    
+    #table-salary{
+        font-size: 18px;
+        top: 66.2%;
+        left: 89%; 
+    }
+    
+    #Vacation-summary{
+        font-size: 18px;
+        top: 70.3%;
+        left: 84%; 
+    }
+    
+    #salary-transfer{
+        font-size: 18px;
+        top: 74.4%;
+        left: 90.8%;  
+    }
+    
+    .other{
+        font-size: 17px;
+        top: 80.2%;
+        left: 96.3%; 
+    }
+    
+    #reports{
+        font-size: 18px;
+        top: 84%;
+        left: 94.4%; 
+    }
+    
+    #settings{
+        font-size: 18px;
+        top: 88%;
+        left: 93.7%; 
+    }
+
+    .homepage-box1{
+        margin-top: 6.6%;
+        margin-right: 18.5%;
+        margin-left: 1.8%; 
+       
+    }
+    
+    .incoming{
+        margin-top: 2%;
+        margin-left: 88.9%; 
+    }
+    
+    .homepage-box2{
+        margin-top: 0.7%;
+        margin-right: 18.5%;
+        margin-left: 1.8%;
+    }
+    
+    .reminder{
+        margin-top:2%;
+        margin-left: 92%; 
+    }
+
+    /* Homepage Page End */ 
+    /* Orders Page Start */ 
+
+    .orders-name{
+        margin-top: 1.9%;
+        margin-left: 82%;
+    }
+
+    .order-table{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+        /* font-size: 17px; */
+        position: fixed;
+        margin-top: 14%;
+        margin-left: 2%;
+    }
+    
+    table, td, th{
+        /* border: 1px solid black; */
+        background-color: rgb(235, 231, 231);
+        border-radius: 10px;
+        /* text-align: left; */
+    }
+    
+    table{
+        border-collapse:collapse;
+        width: 350%;
+    }
+    
+    th, td{
+        padding: 15px;
+    }
+
+    .dropdown{
+        position: fixed;
+        margin-top: 8%;
+        left: 2%;
+    }
+    
+    .new-order{
+        font-size: 17px;
+        padding: 8px 16px;
+    }
+    
+    .dropdown-content{
+        min-width: 170%;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        padding: 12px 21px;
+        display: block;
+    }
+
+    /* Orders Page End */ 
+    /* ModalDemmision Page Start */ 
+    
+    .modal-container{
+        width: 35%;
+        height:100%;
+        position: fixed;
+        top:50%;
+        left:17.7%;
+    }
+    
+    .close-btn{
+        position: fixed;
+        top:-1%;
+        right:4%;
+    }
+
+    .demission{
+        margin-top:-9.5%;
+    }
+
+    .demi-box1{
+        height: 38%;
+        top: 10.8%;
+    }
+
+     .demi-day-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 88.5%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -2%;
+        margin-top: 5.5%;
+    } 
+    
+    .demi-day-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    .reason-label{
+        margin-left: 73.6%;
+        margin-top:17%;
+    }
+
+    #select-demi{
+        height: 42px;
+        width: 84%;
+        position: fixed;
+        left: 8%;
+        top: 38%;
+    }
+
+    .demi-box2{
+        position: fixed;
+        left: 2.7%;
+        top: 50.5%;
+    }
+
+    .rreason-input{
+        height: 41px;
+        width: 90%;
+        position: fixed;
+        margin-left: 0.7%;
+        margin-top: -6%;
+    }
+
+    .footer-popup-modal{
+        width: 100%;
+        height:10%;
+        position: fixed;
+        top:90%;
+        left:0%;
+    }
+
+    .send{
+        margin-top: 2.5%;
+        margin-left: 78%;
+        display: flex;
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 5px 18px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .cancel{
+        margin-top: -6.8%;
+        margin-left: 63%;
+        display: flex;
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 5px 18px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    /* ModalDemmision Page End */ 
+    /* ModalLetter Page Start */
+
+    .letter{
+        margin-top:-9.5%;
+    }
+
+    #select{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 84%;
+        position: fixed;
+        left: 8%;
+        top: 24%;
+    }
+
+    .guided{
+        position: absolute;
+        margin-left: -11.8%;
+        margin-top: 23%; 
+    }
+
+    .guided-input{
+        height: 39px;
+        width: 83%;
+        position: fixed;
+        left: 8%;
+        top: 39.4%;
+    }
+
+    .rreason-input{
+        height: 41px;
+        width: 83%;
+        position: fixed;
+        left: 7%;
+        top: 61.2%;
+    }
+
+    /* ModalLetter Page End */
+    /* ModalEmp Page Start */
+
+    .emp-box1{
+        height: 46%; 
+        position: fixed;
+        top: 11%;
+    }
+
+    .emp-name{
+        font-size: 17px;
+    }
+
+    .emp-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 35.9%;
+        margin-top: -0%;
+    }
+
+    #select-emp{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 84%;
+        position: fixed;
+        left: 8%;
+        top: 22.5%;
+    }
+
+    .month-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 37.8%;
+        margin-top: 19.9%;
+    }
+
+    #select-month{
+        height: 42px;
+        font-size: 19px;
+        width: 84%;
+        position: fixed;
+        left: 8%;
+        top: 35.5%;
+    }
+
+    .num-emp-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 29.1%;
+        margin-top: 39%;
+    }
+
+    #select-num-emp{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 84%;
+        border-radius: 5px;
+        position: fixed;
+        left: 8%;
+        top: 48%;
+        text-align: right;
+    }
+
+    .emp-box2{
+        height: 29.9%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        position: fixed;
+        left: 2.7%;
+        top: 58.8%;
+    }
+
+     .emp-reason-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        position: fixed;
+        left: 8%;
+        top: 65.2%;
+    }
+
+    /* ModalEmp Page End */
+    /* ModalCorrect Page Start */
+    
+    .correct{
+        margin-top:-9.5%;
+    }
+     
+    .corr-date-label{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        position: fixed;
+        left: 7.9%;
+        top: 20.3%;
+    }
+
+    .corr-day-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: absolute;
+        margin-left: -0.9%;
+        margin-top: 7.2%;
+    } 
+
+    .corr-day-input:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    /* ModalCorrect Page End */
+    /* ModalSalary Page Start */
+
+    .salary-box1{
+        height: 55%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 10.8%;
+    }
+
+    .line-horizantal2{
+        width: 80%;
+        position: fixed;
+        top: 18.8%;
+        right: 9%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .item-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 30.8%;
+        margin-top: 3%;
+    }
+    
+    .item-input{
+        height: 33px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 8%;
+    }
+
+    .dating-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 5.6%;
+        margin-top: 3%;
+    }
+
+    .dating-input{
+        height: 35.3px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        position: absolute;
+        margin-left: -13.2%;
+        margin-top: 8%;
+    }
+
+    .salary-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: -23.6%;
+        margin-top: 3%;
+    }
+
+    .salary-input{
+        height: 33px;
+        font-size: 19px;
+        outline: none;
+        width: 26%;
+        position: absolute;
+        margin-left: -44%;
+        margin-top: 8%;
+    }
+
+    .salary-background{
+        width: 7%;
+        height:4.8%;
+        position: fixed;
+        top:26.4%;
+        left:8.9%;
+        border-radius: 5px 1px 1px 5px;
+    }
+
+    .salary-background p{
+        font-size: 14px;
+        margin-top:22%;
+    }
+
+    .description{
+        font-size: 16px;
+        position: absolute;
+        margin-left: 33%;
+        margin-top: 20%;
+    }
+
+    .descrip-input{
+        height: 33px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        position: absolute;
+        margin-left: -42%;
+        margin-top: 25.7%;
+    }
+
+    .salary-box2{
+        height: 19%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 67.5%;
+    }
+
+    .salary-reason-input{
+        height: 33px;
+        font-size: 19px;
+        outline: none;
+        width: 86%;
+        position: absolute;
+        margin-left: -43.6%;
+        margin-top: 9.5%;
+    }
+
+    /* ModalSalary Page End */
+    /* ModalPermission Page Start */ 
+    
+    .per-box1{
+        height: 25%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 10.9%;
+    }
+    .permission{
+        margin-top:-9.5%;
+    }
+
+    .permission-name{
+        font-size: 17px;
+        margin-left: 67%;
+    }
+
+    .permission-type-label{
+        font-size: 16px;
+        margin-left: 82%; 
+    }
+ 
+    #select-per{
+        height: 38px;
+        font-size: 19px;
+        outline: none;
+        width: 40%;
+        position: fixed;
+        left: 52%;
+        top: 23%;
+    }
+
+    .per-dating-label{
+        font-size: 16px;
+        position: absolute;
+        margin-left: -55%;
+        margin-top: 1%;
+    }
+       
+    .day-input{
+        height: 41px;
+        font-size: 19px;
+        outline: none;
+        width: 40%;
+        position: fixed;
+        left: 8%;
+        top: 26%;
+    } 
+    /* .per-box2{
+        height: 45.5%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        background-color: white;
+        border:1px solid rgb(190, 187, 187);
+        border-radius: 15px;
+        position: fixed;
+        left: 2.7%;
+        top: 40.7%;
+    }
+
+       #select-per2{
+        height: 42px;
+        font-size: 19px;
+        outline: none;
+        width: 79%;
+        position: fixed;
+        left: 10.8%;
+        top: 47.6%;
+   }
+
+        .per-reason-input{
+         height: 41px;
+         font-size: 19px;
+         outline: none;
+         width: 83%;
+         position: absolute;
+         margin-left: -41.9%;
+         margin-top: 23%;
+    } */
+
+    /* ModalPermission Page End */ 
+    /* ModalExtra Page Start */ 
+    
+        .extra{
+            margin-top:-9.5%;
+        }
+
+        .extra-name{
+            font-size: 17px;
+            margin-left: 1%;
+        }
+
+        .extra-box1{
+            height: 33.3%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 10.9%;
+         }
+
+        .extra-type-label{
+            font-size: 16px;
+            position: fixed;
+            margin-left: 34.9%; 
+            margin-top: -1%;
+        }
+
+        #select-ext{
+            height: 43px;
+            font-size: 19px;
+            outline: none;
+            width: 83%;
+            position: fixed;
+            left: 7.7%;
+            top: 22.1%;
+        }
+
+        .ext-dating-label{
+            font-size: 16px;
+            position: fixed;
+            margin-left: 33.7%;
+            margin-top: 17.6%;
+        }
+
+        .ext-dating-input{
+            height: 40px;
+            font-size: 19px;
+            outline: none;
+            width: 40%; 
+            position: fixed;
+            margin-left: 0.6%;
+            margin-top: 22.9%;
+        }
+
+        .extra-label{
+            font-size: 16px;
+            position: fixed;
+            margin-left: -14%;
+            margin-top: 17.6%;
+        }
+
+        .extra-input{
+            height: 37.4px;
+            font-size: 19px;
+            outline: none;
+            width: 25%;
+            position: fixed;
+            margin-left: -27.5%;
+            margin-top: 23%;
+        }
+
+        .blus{
+            height: 16%;
+            margin-top:28.3%;
+            margin-left: 11.8%;
+            display: flex;
+            font-size: 30px;
+            border-radius: 5px;
+            padding:5px 10px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .minus{
+            height: 16.4%;
+            margin-top:-8%;
+            margin-left: 2.6%;
+            display: flex;
+            font-size: 35px;
+            border-radius: 5px;
+            padding:0px 12px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .extra-box2{
+            height: 36.6%;
+            font-size: 19px;
+            outline: none;
+            width: 94%; 
+            position: fixed;
+            left: 2.7%;
+            top: 46%;
+        }
+
+        .ext-reason{
+            font-size: 17px;
+            position: absolute;
+            margin-left: 87%;
+            margin-top: 4%;
+        }
+    
+        .ext-reason-input{
+            height: 38px;
+            font-size: 19px;
+            outline: none;
+            width: 88%; 
+            position: absolute;
+            margin-left: -44.8%;
+            margin-top: 10%;
+        }
+
+        /* ModalExtra Page End */ 
+
+        /* ModalCustody Page Start */
+ 
+        .cos-box1{
+            height: 33%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 11.2%;  
+        }
+
+        .custody{
+            margin-top:-9.5%;
+        }
+
+        .custody-name{
+            font-size: 17px;
+            position: fixed;
+            margin-left: 27.1%;
+            margin-top:5%;
+        }
+
+         #select-custody{
+            height: 42px;
+            font-size: 19px;
+            outline: none;
+             width: 83%;
+             background-color: white;
+             border:1px solid rgb(200, 199, 199);
+             border-radius: 5px;
+             position: fixed;
+             left: 8.5%;
+             top: 19.3%;
+             text-align: right;
+        }
+        
+        #select-custody:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .cus-type-label{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 17px;
+            position: absolute;
+            margin-left: 31%;
+            margin-top: 25.8%;
+        }
+ 
+        #select-cus-type{
+            height: 40px;
+            font-size: 19px;
+            outline: none;
+            width: 83%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            /* position: fixed; */
+            margin-left: -1%;
+            margin-top: -6%;
+            text-align: right;
+        }
+    
+        #select-cus-type:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .cos-box2{
+            height: 42%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            background-color: white;
+            border:1px solid rgb(190, 187, 187);
+            border-radius: 15px;
+            position: fixed;
+            left: 2.7%;
+            top: 46%;  
+        }
+        .custody-reason{
+            font-size: 17px;
+            margin-left: 81.5%; 
+        }
+
+        .cus-reason-input{
+            font-size: 19px;
+            height: 37px;
+            font-size: 19px;
+            outline: none;
+            width: 80.8%;
+            background-color: white;
+            border:1px solid rgb(200, 199, 199);
+            border-radius: 5px;
+            position: fixed;
+            left: 9%;
+            top: 53%;
+            text-align: right;
+        }
+    
+        .custody-input:hover{
+            border-color:rgb(25, 58, 192);
+        }
+
+        .upload-custody{
+            font-size: 17px;
+            margin-left: 10px;
+            margin-top: 20%;
+            color: #676262;
+        }
+
+        .upload-file{
+            color: black;
+            margin-left: 16%;
+            margin-top: 5px;
+        }
+
+    /* ModalCustody Page End */
+    /* ModalHoliday Page Start */
+
+        .holiday-box1{
+           height: 35%;
+           font-size: 19px;
+           outline: none;
+           width: 94%; 
+           position: fixed;
+           left: 2.7%;
+           top: 10%;  
+         }
+
+        .holiday{
+            margin-top:-9.5%;
+        }
+
+        .holi-details{
+            font-size: 17px;
+            position: fixed;
+            margin-left: 38.2%;
+            margin-top:4%;
+        }
+        
+        .holi-type-label{
+            font-size: 17px;
+            position: fixed;
+            margin-left: 35%;
+            margin-top: 9%;
+        }
+
+        #select-holi{
+            height: 44px;
+            font-size: 19px;
+            outline: none;
+            width: 83%;
+            position: fixed;
+            left: 8.5%;
+            top: 20.8%;
+        }
+
+        .holi-dating-label{
+            font-size: 19px;
+            position:fixed;
+            margin-left: 36.4%;
+            margin-top: 27%;
+        }
+        
+        .start-date-input{
+            height: 41px;
+            font-size: 19px;
+            outline: none;
+            width: 40%;
+            position: absolute;
+            margin-left: 3.9%;
+            margin-top: 35%;
+        }
+
+ 
+        .holi-dating-label2{
+            font-size: 19px;
+            position: fixed;
+            margin-left: -8%;
+            margin-top: 27%;
+        }
+
+        .end-date-input{
+            height: 41px;
+            font-size: 19px;
+            outline: none;
+            width: 40%; 
+            position: absolute;
+            margin-left: -43%;
+            margin-top: 34.9%;
+        }
+
+        .holiday-box2{
+            height: 9%;
+            font-size: 19px;
+            outline: none;
+            width: 94%;
+            position: fixed;
+            left: 2.7%;
+            top: 46%;  
+          }
+          
+          .holiday-box3{
+            height: 9.5%;
+            outline: none;
+            width: 94%;
+            position: fixed;
+            left: 2.7%;
+            top: 56%;  
+          }
+
+          .holiday-box4{
+            height: 28%;
+            outline: none;
+            width: 94%;
+            position: fixed;
+            left: 2.7%;
+            top: 66.6%;  
+          }
+
+    /* ModalHoliday Page End */
+
+    /* ModalJob Page Start */
+
+    .job{
+        margin-top:-9.5%;
+     }
+     .job-box1{
+        height: 43.5%;
+        font-size: 19px;
+        outline: none;
+        width: 94%;
+        position: fixed;
+        left: 2.7%;
+        top: 10%;  
+    }
+    .trip-label{
+        font-size: 19px;
+        position:absolute;
+        margin-left: 29.4%;
+        top: 19.6%;
+        /* margin-top: 8; */
+    }
+    
+    #select-trip{
+        height: 38px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        position: fixed;
+        left: 8.5%;
+        top: 22.8%;
+        text-align: right;
+    }
+
+    .job-dating-label{
+        font-size: 19px;
+        position: fixed;
+        margin-left: 37%;
+        margin-top: 16%;
+    }
+    
+    .job-start-date-input{
+        height: 37px;
+        font-size: 19px;
+        outline: none;
+        width: 40%;
+        margin-left: 3.6%;
+        margin-top: 23%;
+    }
+    
+    .job-dating-label2{
+        font-size: 19px;
+        position: fixed;
+        margin-left: -8%;
+        margin-top: 16%;
+    }
+    
+    .job-end-date-input{
+        height: 37px;
+        font-size: 19px;
+        outline: none;
+        width: 40%;
+        margin-left: -43.7%;
+        margin-top:22.9%;
+        text-align: right;
+    }
+    
+    .service-label{
+        font-size: 19px;
+        position: fixed;
+        margin-left: 22.2%;
+        margin-top: 32%;
+    }
+    
+    #select-service{
+        height: 38px;
+        font-size: 19px;
+        outline: none;
+        width: 83%;
+        position: fixed;
+        left: 8.6%;
+        top: 45.4%;
+        text-align: right;
+    }
+    
+    .job-box2{
+        height: 9.5%;
+        outline: none;
+        width: 94%;
+        position: fixed;
+        left: 2.7%;
+        top: 54.4%; 
+    }
+    
+    .job-box3{
+        height: 9.5%;
+        outline: none;
+        width: 94%;
+        position: fixed;
+        left: 2.7%;
+        top: 65%; 
+    }
+    
+    .job-box4{
+        height: 23%;
+        outline: none;
+        width: 94%;
+        position: fixed;
+        left: 2.7%;
+        top: 75.5%; 
+    }
+     /* ModalJob Page End */
+
+    /* ViewEmp Page Start */
+
+    .num-pages-label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        position: absolute;
+        margin-left: 75%;
+        margin-top: 23%;
+    }
+
+    .emp-pages{
+        font-size: 19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 5px;
+        color: black;
+        padding: 5px 18px;
+        background: white;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .viewEmp-table1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  sans-serif;
+        /* font-size: 17px; */
+        position: fixed;
+        margin-top: 11%;
+        margin-left: 1.8%;
+    }
+
+    table, td, th{
+        /* border: 1px solid black; */
+        background-color: rgb(235, 231, 231);
+        border-radius: 10px;
+        /* text-align: left; */
+    }
+    
+    .viewEmp-table1{
+        border-collapse:collapse;
+        width: 22.5%;
+    }
+
+    th, td {
+        padding: 15px;
+    }    
+
+    /* View Emp Page End */
+
+    /* Attendance & leave Start */
+
+    .att-box{
+        height: 66%;
+        outline: none;
+        width: 38%;
+        background-color: #8fbc8f;
+        border:none;
+        border-radius: 15px;
+        position: fixed;
+        left: 40%;
+        top: 20%;  
+    }
+
+      .prev{
+        margin-top: 8%;
+        margin-left: 19.7%;
+        display: flex;
+        font-size: 22px;
+        /* border-radius: 5px; */
+        border-top-right-radius: 20px 50px;
+        border-bottom-right-radius: 20px 50px;
+        padding: 6px 9px;
+        background: white;
+        border-left: 1px;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+      }
+
+      .prev:hover{
+        background-color: #f5f5f5;
+      }
+
+      .next{
+        margin-top: -2.47%;
+        margin-left: 12.6%;
+        display: flex;
+        font-size: 22px;
+        /* border-radius: 5px; */
+        border-top-left-radius: 20px 50px;
+        border-bottom-left-radius: 20px 50px;
+        padding: 6px 9px;
+        background: white;
+        border-left: 1px;
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+      }
+
+      .next:hover{
+        background-color: #f5f5f5;
+      }
+
+      .att-date{
+        height: 34px;
+        font-size: 19px;
+        outline: none;
+        width: 3%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        position: fixed;
+        left: 16.4%;
+        top: 16.19%;
+        text-align: right;
+    }
+
+     .att-date:hover{
+        border-color:rgb(25, 58, 192);
+    }
+
+    #select-att{
+        height: 37px;
+        font-size: 19px;
+        outline: none;
+        width: 9.2%;
+        background-color: white;
+        border:1px solid rgb(200, 199, 199);
+        border-radius: 5px;
+        position: fixed;
+        left: 3%;
+        top: 16.15%;
+        text-align: right;
+    }
+
+    #select-att:hover{
+        border-color:rgb(25, 58, 192);
+    }
+         
+    .att-box1{
+        height: 34%;
+        outline: none;
+        width: 25%;
+        background-color:rgb(218, 218, 218);
+        border:none;
+        border-radius: 15px;
+        position: fixed;
+        left: 55.5%;
+        top: 24.4%;  
+    }
+    
+    /* Attendance & leave End */
+
+    /* Settings Page Start */ 
+        
+    .back-from-settings{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        left: 23%;
+    }      
+    
+}
+
+/* For iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    /*Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px */   
+}
+
+@media only screen and (max-width: 768px){
+    /* For mobile phones: */
 }
